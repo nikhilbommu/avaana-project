@@ -1,0 +1,104 @@
+.service-card-wrapper {
+    padding: .5rem;
+    border-radius: 1rem;
+    width: 23vw;
+}
+.service-card-top-portion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-details,
+.timing-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay-details {
+    border-bottom: 1px solid #095d59;
+}
+.img-container {
+    width: fit-content;
+}
+.name {
+    color: #095D59;
+    text-transform: uppercase;
+    opacity: 1;
+    font: normal normal 900 10px Avenir;
+    margin: 0;
+}
+
+.service-name {
+    font: normal normal 10px Avenir;
+    letter-spacing: 1px;
+    color: #095D59;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0;
+}
+
+.rating {
+    display: flex;
+    font-size: 10px;
+    color: #ffc400;
+}
+.staricon {
+    font-size: 10px;
+    margin: 0;
+}
+.consultation-type {
+    font: normal normal 900 16px Avenir;
+    letter-spacing: 0px;
+    color: #095D59;
+    opacity: 1;
+}
+
+.consultation-pay {
+    display: flex;
+    margin: 0;
+    .pay-in-numbers {
+        color: #095D59;
+        font: normal normal 900 16px Avenir;
+    }
+
+    .pay-per-hour {
+        font: normal normal 300 16px Avenir;
+        color: #095D59;
+
+    }
+}
+
+.timing-details {
+    margin: 0;
+    .date {
+        font: normal normal 16px Avenir;
+        letter-spacing: 0px;
+        color: #095D59;
+    }
+
+    .all-times-text {
+        font: normal normal 14px Avenir;
+        letter-spacing: 0px;
+        color: #00BD71;
+    }
+}
+
+.time1,.time2,.time3 {
+    width: fit-content;
+    background-color: #f5f5f5;
+    margin: .5rem;
+    padding: 0rem 0.5rem;
+}
+
+@media screen and (max-width: 1270px) {
+    .service-card-wrapper {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .service-card-wrapper {
+        width: 100%;
+    }
+}

@@ -1,0 +1,119 @@
+.dashboard-wrapper {
+    background-color: #095d59;
+    .main-content-wrapper {
+        .context-text-wrapper {
+            background: transparent url('../../../../assets/avaana-image1.png') 0% 0% no-repeat padding-box;
+            height: 80vh;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 2rem 1.5rem;
+         }
+
+        .context-text-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 5rem;
+            margin-top: 2rem;
+        }
+
+        .context-text {
+            font-size: 72px;
+            color: #FFFFFF;
+            text-shadow: 0px 0px 10px #03363D40;
+        }
+    }
+}
+
+@media screen and (max-width: 415px)  {
+    .dashboard-wrapper {
+        .main-content-wrapper {
+            .context-text {
+                font-size: 30px;
+                text-shadow: 0px 0px 10px #03363D40;
+            }
+
+            .context-text-container {
+                margin-left: 2rem;
+                margin-top: 10rem;
+            }
+        }
+    }
+    .cards-main-container {
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .service-card-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.mat-tab-label-active {
+    border-bottom: 1px solid white;
+}
+
+.color-desc2 {
+    color: #00bd71;
+}
+
+.service-card-container {
+    display: flex;
+    overflow: scroll;
+    width: 85%;
+    justify-content: start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.service-card {
+    background-color: #FFFFFF;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.mat-tabs {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.desc1 {
+    margin: 0;
+    text-align: center;
+    font: normal normal normal 36px/56px Recoleta;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.desc2 {
+    text-align: center;
+    font: normal normal medium 16px/30px Avenir;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.cards-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.discover-container {
+    margin-top: 2rem;
+}
+.find-more-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+

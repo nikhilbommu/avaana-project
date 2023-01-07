@@ -1,0 +1,58 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.appointments-tab-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    .search {
+        border: none;
+        outline: none;
+        border-bottom : 2px solid #095D59;
+        margin-right: 2rem;
+    }
+
+    ::placeholder {
+        color: #095d59;
+    }
+}
+
+.search1 {
+    width: 300px;
+}
+.search2 {
+    width: 162px;
+}
+.search3 {
+    width: 200px;
+}
+
+@media screen and (max-width: 900px) {
+    .appointments-tab-wrapper {
+        flex-direction: column;
+        width: max-content;
+        margin: 2rem auto;
+        .search,.discover-btn {
+            margin-top:1rem;
+        }
+
+    }
+}
+
+.search::-webkit-input-placeholder {
+    font-family: FontAwesome;
+}
+
+.search::-moz-placeholder {
+    font-family: FontAwesome;
+
+}
+
+.search:-ms-input-placeholder {
+    font-family: FontAwesome;
+
+}
+

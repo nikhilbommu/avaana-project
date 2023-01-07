@@ -1,0 +1,52 @@
+<div class="dashboard-wrapper">
+    <div class="nav-bar">
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div class="main-content-wrapper">
+        <div class="context-text-wrapper">
+            <div class="context-text-container">
+                <p class="context-text">Seeking Wellbeing?</p>
+                <p class="context-text">You're in the right place.</p>
+            </div>
+            <div class="mat-tabs">
+                <mat-tab-group>
+                    <mat-tab>
+                        <ng-template mat-tab-label>APPOINTMENTS</ng-template>
+                        <app-appointments-tab></app-appointments-tab>
+                    </mat-tab>
+                    <mat-tab>
+                        <ng-template mat-tab-label>CLASSES</ng-template>
+                        <div><p>Data not found</p></div>
+                    </mat-tab>
+                    <mat-tab>
+                        <ng-template mat-tab-label>ONLINE</ng-template>
+                        <div><p>Data not found</p></div>
+                    </mat-tab>
+                </mat-tab-group>
+            </div>
+        </div>
+        <div class="cards-main-container"> 
+            <div class="discover-container">
+                <p class="desc1">Discover wellbeing services near you</p>
+                <p class="desc2">Displaying nearby wellbeing for <span class="color-desc2">Hawthorn</span></p>
+            </div>
+            <div class="service-card-container">
+                <div class="service-card">
+                    <app-service-card [image]="'../../../../assets/card-img1.png'"></app-service-card>
+                </div>
+                <div class="service-card">
+                    <app-service-card [image]="'../../../../assets/card-img2.png'"></app-service-card>
+                </div>
+                <div class="service-card">
+                    <app-service-card [image]="'../../../../assets/card-img3.png'"></app-service-card>
+                </div>
+                <div class="service-card">
+                    <app-service-card [image]="'../../../../assets/card-img4.png'"></app-service-card>
+                </div>
+            </div>
+            <div class="find-more-btn-container">
+                <button class="primary-cta">FIND MORE WELLBEING NEARBY</button>
+            </div>
+        </div>
+    </div>
+</div>
